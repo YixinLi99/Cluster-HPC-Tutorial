@@ -15,17 +15,21 @@
 
    This could be tricky, it depends on how you have set up your account keys - so do get in touch if you struggle. For me I use the following:
    - On my laptop I open a terminal and type `cd Downloads`
-   - Then I type `scp input.inp job_script.sh k1759875@login.rosalind.kcl.ac.uk:/path to my scratch directory`, then type my passwords. 
+   - Then I type `scp input.inp job_script.sh k1763287@login3.rosalind.kcl.ac.uk:/path to my scratch directory`, then type my passwords. 
+     which is `scp input.inp job_script.sh k1763287@login3.rosalind.kcl.ac.uk:/users/k1763287`
    - I find the `path to my scratch directory` by typing `pwd` in rosalind in my scratch directory
+     which is `/users/k1763287`
 
-4. Run the job in Rosalind `sbatch job_script.sh`
+4. Run the job in Rosalind `sbatch job_script.sh` as in the `cd /users/k1763287`
 
 6. Check the queue to ensure your job is running - `qstat k1763287`
 When the job is running, practice using the `tail` and `more` commands to check the file as it updates
 
 7. Try submitting the job again, asking for a different time or different number of nodes
 
-###### Path to scratch direcotry Permission is Denied 
+###### Path to scratch directory Permission is Denied 
+
+Reason: Not the correcrt directory
 
 1. `ssh k1759875@login.rosalind.kcl.ac.uk`
 
@@ -38,4 +42,6 @@ When the job is running, practice using the `tail` and `more` commands to check 
 5. `vi Test file`
 
 6. `:wq` (to save the file and quit)
+
+
 
