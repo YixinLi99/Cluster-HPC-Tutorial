@@ -8,15 +8,15 @@
 
 1. Download the two files from this email
 
-2. Open your Rosalind account using the terminal
-Move into your `scratch` directory (cd scratch, or cd sharedscratch)
+2. Open your Rosalind account using the terminal `ssh k1763287@login3.rosalind.kcl.ac.uk`
+   Move into your `scratch` directory (cd scratch, or cd sharedscratch)
 
 3. Upload the files you have downloaded from your PC onto Rosalind. 
 
    This could be tricky, it depends on how you have set up your account keys - so do get in touch if you struggle. For me I use the following:
-on my laptop I open a terminal and type `cd Downloads`
-
-   Then I type `scp input.inp job_script.sh k1759875@login.rosalind.kcl.ac.uk:/path to my scratch directory`, then type my passwords. I find the `path to my scratch directory` by typing `pwd` in rosalind in my scratch directory
+   - On my laptop I open a terminal and type `cd Downloads`
+   - Then I type `scp input.inp job_script.sh k1759875@login.rosalind.kcl.ac.uk:/path to my scratch directory`, then type my passwords. 
+   - I find the `path to my scratch directory` by typing `pwd` in rosalind in my scratch directory
 
 4. Run the job in Rosalind `sbatch job_script.sh`
 
