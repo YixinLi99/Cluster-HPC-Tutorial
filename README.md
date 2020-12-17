@@ -45,8 +45,11 @@ Reason: Not the correcrt directory
 
 ###### Run Namd on Rosalind 
 
-```module load utilities/use.dev
+```
+   module load utilities/use.dev
 
    module load apps/namd/2.13-custom01-molteni-plumed
    
-   apps/plumed/2.6.0-custom-molteni02-openmpi4.0.0-gcc7.3.0-python3.7.3```
+   apps/plumed/2.6.0-custom-molteni02-openmpi4.0.0-gcc7.3.0-python3.7.3
+   
+   ```
