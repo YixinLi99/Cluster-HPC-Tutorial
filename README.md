@@ -23,7 +23,7 @@
 
 4. Run the job in Rosalind `sbatch job_script.sh` as in the `cd /users/k1763287`
 
-6. Check the queue to ensure your job is running - `qstat k1763287`
+6. Check the queue to ensure your job is running - `qstat -u k1763287`
 When the job is running, practice using the `tail` and `more` commands to check the file as it updates
 
 7. Try submitting the job again, asking for a different time or different number of nodes
