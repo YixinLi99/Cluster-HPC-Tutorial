@@ -19,6 +19,7 @@
      which is `scp input.inp job_script.sh k1763287@login3.rosalind.kcl.ac.uk:/users/k1763287`
    - I find the `path to my scratch directory` by typing `pwd` in rosalind in my scratch directory
      which is `/users/k1763287`
+   - If want to move out to local computer: `scp k1763287@login3.rosalind.kcl.ac.uk:/users/k1763287/input.inp job_script.sh`
 
 4. Run the job in Rosalind `sbatch job_script.sh` as in the `cd /users/k1763287`
 
