@@ -33,3 +33,7 @@ module load gaussian/g16
 
 g16 < input.com > output.log
 ```
+
+```
+vi ~/.bashrc
+```
