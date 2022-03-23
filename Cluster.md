@@ -34,6 +34,5 @@ module load gaussian/g16
 g16 < input.com > output.log
 ```
 
-```
-vi ~/.bashrc
-```
+For GaussView on Cluster: `vi ~/.bashrc`. 
+To check the status of nodes: `cd /home/scripts/SLURM/g16` -> `#SBATCH -p X20Cv4`
