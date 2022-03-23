@@ -1,6 +1,6 @@
 # Cluster Tutorial
 
-In particular, SLURM: >https://curc.readthedocs.io/en/latest/compute/modules.html; >https://www.chpc.utah.edu/presentations/images-and-pdfs/SLURM-modules.pdf
+In particular, SLURM: > https://curc.readthedocs.io/en/latest/compute/modules.html; >https://www.chpc.utah.edu/presentations/images-and-pdfs/SLURM-modules.pdf
 
 Useful Training PPT：> http://depts.washington.edu/uwrcc/wordpress/wp-content/uploads/2020/10/HyakTrainingSession_F20_compressed.pdf
 
@@ -28,11 +28,11 @@ To transfer files: 'scp', 'sftp', 'XShell'
 #SBATCH --mail-type=end          # send email when job ends
 #SBATCH --mail-user=<YourNetID>@princeton.edu
 
-module purge
 module load gaussian/g16
 
 g16 < input.com > output.log
 ```
 
 For GaussView on Cluster: `vi ~/.bashrc`. 
-To check the status of nodes: `cd /home/scripts/SLURM/g16` -> `#SBATCH -p X20Cv4`
+To check the status of nodes: `cd /home/scripts/SLURM/g16` → `#SBATCH -p X20Cv4`
+
