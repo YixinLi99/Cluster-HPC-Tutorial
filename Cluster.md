@@ -39,3 +39,4 @@ g16 < input.com > output.log
 For GaussView on Cluster: `vi ~/.bashrc`  
 To check the status of nodes: `cd /home/scripts/SLURM/g16` → `#SBATCH -p X20Cv4`
 
+If you want to logout from the cluster, type `logout`
