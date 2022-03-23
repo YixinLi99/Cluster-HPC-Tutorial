@@ -5,9 +5,9 @@ In particular, SLURM: > https://curc.readthedocs.io/en/latest/compute/modules.ht
 Useful Training PPT：> http://depts.washington.edu/uwrcc/wordpress/wp-content/uploads/2020/10/HyakTrainingSession_F20_compressed.pdf
 
 #### Bash Commands
-To log in: 'ssh yixinli@159.226.64.67' password: 123456
+To log in: `ssh yixinli@159.226.64.67` password: 123456
 
-To see the modules (apps): 'module avail'
+To see the modules (apps): `module avail`
 
 To load the modules: ```module load gaussian/g16.a03-avx                          
 gaussian/g16.a03-avx2                         
