@@ -9,11 +9,11 @@ To log in: 'ssh yixinli@159.226.64.67' password: 123456
 
 To see the modules (apps): 'module avail'
 
-To load the modules: ''' module load gaussian/g16.a03-avx                          
+To load the modules: ```module load gaussian/g16.a03-avx                          
 gaussian/g16.a03-avx2                         
-gaussian/g16.a03-sse4_2  '''
+gaussian/g16.a03-sse4_2```
 
-To transfer files: 'scp', 'sftp', 'XShell'
+To transfer files: `scp`, `sftp`, `XShell`
 
 #### Sample Slurm scripts 
 ```
@@ -21,12 +21,15 @@ To transfer files: 'scp', 'sftp', 'XShell'
 #SBATCH --job-name=gaussian      # create a short name for your job
 #SBATCH --nodes=1                # node count
 #SBATCH --ntasks=<N>             # total number of tasks across all nodes
+(#SBATCH --nodes=1 --ntasks-per-node=4)
 #SBATCH --cpus-per-task=1        # cpu-cores per task (>1 if multi-threaded tasks)
 #SBATCH --mem=40G                # total memory per node (4G per cpu-core is default)
 #SBATCH --time=01:00:00          # total run time limit (HH:MM:SS)
 #SBATCH --mail-type=begin        # send email when job begins
 #SBATCH --mail-type=end          # send email when job ends
 #SBATCH --mail-user=<YourNetID>@princeton.edu
+#SBATCH -p X20Cv4
+#SBATCH -J GAUSSIAN
 
 module load gaussian/g16
 
