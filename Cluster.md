@@ -37,6 +37,6 @@ g16 < input.com > output.log
 ```
 
 For GaussView on Cluster: `vi ~/.bashrc`  
-To check the status of nodes: `cd /home/scripts/SLURM/g16` → `#SBATCH -p X20Cv4`
+To check the status of nodes: `cd /home/scripts/SLURM/g16` → `sinfo`: if its state is `alloc`, means you have to queque, choose the one with `idle` → `#SBATCH -p X20Cv4`
 
 If you want to logout from the cluster, type `logout`
