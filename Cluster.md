@@ -12,8 +12,11 @@ To see the modules (apps): `module avail`
 To load the modules: ```module load gaussian/g16.a03-avx                          
 gaussian/g16.a03-avx2                         
 gaussian/g16.a03-sse4_2```
+if you forget the final several words, e.g. `module load multi...`, just click `tap`, the systerm will fill it for you.
 
 To transfer files: `scp`, `sftp`, `XShell`
+
+for `sftp`, just `sftp yixinli@159.226.64.67`, then you can type `put` to upload files onto slurm, and `get` to download files to local computer.
 
 #### Sample Slurm scripts 
 ```
@@ -35,8 +38,15 @@ module load gaussian/g16
 
 g16 < input.com > output.log
 ```
+For our cluster，scripts are pre-written. It is better to use them. 
+
+To find them, `cd /home/scripts/SLURM/` generally. E.g. `/home/scripts/SLURM/g16` for gaussian 16. 
 
 For GaussView on Cluster: `vi ~/.bashrc`  
-To check the status of nodes: `cd /home/scripts/SLURM/g16` → `sinfo`: if its state is `alloc`, means you have to queque, choose the one with `idle` → `#SBATCH -p X20Cv4`
+To check the status of nodes: `cd /home/scripts/SLURM/g16` → `sinfo`: if its state is `alloc`, means you have to queque, choose the one with `idle` → `#SBATCH -p X20Cv4`, and the ntasks-per-node is determined by the number after X, e.g. `X16Cv3*`, then type `16*2` for ntasks-per-node. Notice that, `*` should not be included in the bash shell script, because it denotes it is the default one, when you didn't specify your used -p, you will use it.
+
+To do the interactive commands, type `module load multiwfn/3.8-dev-almost-up-to-date`
+for multiwfn and my molecule, `ulimit -s unlimited` is needed.
+Then, `Multiwfn AQx.fch` and you will enter the interative UI of Multiwfn
 
 If you want to logout from the cluster, type `logout`
