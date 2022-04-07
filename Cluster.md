@@ -5,7 +5,7 @@ In particular, SLURM: > https://curc.readthedocs.io/en/latest/compute/modules.ht
 Useful Training PPT：> http://depts.washington.edu/uwrcc/wordpress/wp-content/uploads/2020/10/HyakTrainingSession_F20_compressed.pdf
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74641841/162175737-63348085-c189-4f19-aa04-60cb26a5e8a8.jpg" width="400" height="450"/>
+  <img src="https://user-images.githubusercontent.com/74641841/162175737-63348085-c189-4f19-aa04-60cb26a5e8a8.jpg" width="800" height="400"/>
 </p>
 #### Bash Commands
 To log in: `ssh yixinli@159.226.64.67` password: 123456
