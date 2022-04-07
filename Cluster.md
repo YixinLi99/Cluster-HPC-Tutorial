@@ -50,3 +50,9 @@ for multiwfn and my molecule, `ulimit -s unlimited` is needed.
 Then, `Multiwfn AQx.fch` and you will enter the interative UI of Multiwfn
 
 If you want to logout from the cluster, type `logout`
+
+`%NPRocShared=16` 调用16核parallel computation
+`%Mem=32GB` 一共用最多32GB memory
+X32Cv4 物理核心数+CPU版本
+/opt/list_node_info.sh
+ssh q2 /opt/list_node_info.sh 查看q2的配置
