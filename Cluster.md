@@ -67,4 +67,4 @@ scontrol show job <jobid>: More information about a particular job, including a 
 X32Cv4 物理核心数+CPU版本
 /opt/list_node_info.sh
 ssh q2 /opt/list_node_info.sh 查看q2(node)的配置
-
+`%maxcore` 每核多少内存
