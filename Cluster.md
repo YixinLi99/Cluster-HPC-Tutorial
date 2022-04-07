@@ -7,6 +7,7 @@ Useful Training PPT：> http://depts.washington.edu/uwrcc/wordpress/wp-content/u
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74641841/162175737-63348085-c189-4f19-aa04-60cb26a5e8a8.jpg" width="600" height="400"/>
 </p>
+
 #### Bash Commands
 To log in: `ssh yixinli@159.226.64.67` password: 123456
 
