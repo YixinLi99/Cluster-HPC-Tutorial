@@ -4,6 +4,8 @@ In particular, SLURM: > https://curc.readthedocs.io/en/latest/compute/modules.ht
 
 Useful Training PPT：> http://depts.washington.edu/uwrcc/wordpress/wp-content/uploads/2020/10/HyakTrainingSession_F20_compressed.pdf
 
+![IMG_0218](https://user-images.githubusercontent.com/74641841/162175737-63348085-c189-4f19-aa04-60cb26a5e8a8.jpg)
+
 #### Bash Commands
 To log in: `ssh yixinli@159.226.64.67` password: 123456
 
@@ -51,8 +53,16 @@ Then, `Multiwfn AQx.fch` and you will enter the interative UI of Multiwfn
 
 If you want to logout from the cluster, type `logout`
 
+Commands about your job： 
+```
+squeue: This gives a very long list of all jobs for all users. Bad if there are many jobs.
+squeue -u <username>: This only shows your own jobs.
+squeue -j <jobid>: Info just for a particular job. You get the jobid when you submit your job.
+scontrol show job <jobid>: More information about a particular job, including a (rough) estimate of when the job starts.
+```
 `%NPRocShared=16` 调用16核parallel computation
 `%Mem=32GB` 一共用最多32GB memory
 X32Cv4 物理核心数+CPU版本
 /opt/list_node_info.sh
-ssh q2 /opt/list_node_info.sh 查看q2的配置
+ssh q2 /opt/list_node_info.sh 查看q2(node)的配置
+
