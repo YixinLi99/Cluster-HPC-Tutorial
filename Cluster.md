@@ -61,6 +61,7 @@ squeue -u <username>: This only shows your own jobs.
 squeue -j <jobid>: Info just for a particular job. You get the jobid when you submit your job.
 scontrol show job <jobid>: More information about a particular job, including a (rough) estimate of when the job starts.
 ```
+For X16 
 `%NPRocShared=16` 调用16核parallel computation
 `%Mem=32GB` 一共用最多32GB memory
 X32Cv4 物理核心数+CPU版本
