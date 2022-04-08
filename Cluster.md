@@ -1,7 +1,6 @@
 # Cluster Tutorial
 
-In particular, SLURM: > https://curc.readthedocs.io/en/latest/compute/modules.html; >https://www.chpc.utah.edu/presentations/images-and-pdfs/SLURM-modules.pdf
-
+In particular, SLURM: > https://curc.readthedocs.io/en/latest/compute/modules.html; 
 Useful Training PPT：> http://depts.washington.edu/uwrcc/wordpress/wp-content/uploads/2020/10/HyakTrainingSession_F20_compressed.pdf
 
 <p align="center">
