@@ -5,7 +5,7 @@ In particular, SLURM: > https://curc.readthedocs.io/en/latest/compute/modules.ht
 Useful Training PPT：> http://depts.washington.edu/uwrcc/wordpress/wp-content/uploads/2020/10/HyakTrainingSession_F20_compressed.pdf
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/74641841/162175737-63348085-c189-4f19-aa04-60cb26a5e8a8.jpg" width="600" height="400"/>
+  <img src="https://user-images.githubusercontent.com/74641841/162345973-fa153665-d7d2-4a45-8e65-8841663ab14e.JPG" width="600" height="400"/>
 </p>
 
 #### Bash Commands
