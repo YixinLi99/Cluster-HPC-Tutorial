@@ -71,3 +71,9 @@ ssh q2 /opt/list_node_info.sh 查看q2(node)的配置
 NOTE: 1 node is preferred, because the memory is not shared between nodes, if you choose more nodes, the running time might take longer
 `free -h`
 `df -h`
+
+To view your file：
+```nano <filename
+```
+or
+```vim <filename>``` where `control + f` and `control + B`
