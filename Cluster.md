@@ -69,3 +69,4 @@ X32Cv4 物理核心数+CPU版本
 ssh q2 /opt/list_node_info.sh 查看q2(node)的配置
 `%maxcore` 每核多少内存
 `top` see the CPU usage
+NOTE: 1 node is preferred, because the memory is not shared between nodes, if you choose more nodes, the running time might take longer
