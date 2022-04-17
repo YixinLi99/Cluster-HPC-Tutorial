@@ -78,3 +78,11 @@ To view your file：
 ```
 or
 ```vim <filename>``` where `control + f` and `control + B`
+
+To transfer your file:
+`sftp`
+or 
+`WinSCP` (which is a software)
+
+recommanded gromacs slurm script: gmx-2021.3-gpu.slurm
+
