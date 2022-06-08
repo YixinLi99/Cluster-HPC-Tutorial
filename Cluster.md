@@ -86,3 +86,8 @@ or
 
 recommanded gromacs slurm script: gmx-2021.3-gpu.slurm
 
+
+To check the node:
+squeue -u yixinli to see what node you are using 
+ssh q20 (if thats the one youre using)
+htop to see which CPU is available , cpu_start_offset=0 (第一块），=24（第二块）
